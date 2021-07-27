@@ -13,7 +13,7 @@ with open(r, 'rb') as fp:
         'https://api.platerecognizer.com/v1/plate-reader/',
         data=dict(regions=regions),  # Optional
         files=dict(upload=fp),
-        headers={'Authorization': 'Token bf8985ebefdb4eafc5c1825fb8d616c4e8aca003'})
+        headers={'Authorization': ''})
 #print(response.json())
 l=response.json()
 l=l['results']
